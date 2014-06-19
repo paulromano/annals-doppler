@@ -1,0 +1,38 @@
+Source ND_LIBRARY: /home/romapk/ane-doppler/testing/1_generate_293_library/ND_LIBRARY.h5
+    NDEX version: 05.01.00
+    NDEX compile date: Dec 18 2013 at 17:04:17
+    Library created by: Paul Romano (romapk)
+    Library created on: Tue 04 Mar 2014 at 14:18:24
+    Nuclear Data Repository: /share/project/NDR/test/NUCLIDES/
+    Library comments:
+        Small ND_LIBRARY for Doppler testing
+        V285 = ENDF/B-VII.1, NJOY 2012.8
+        *** /share/project/NDR/test/NUCLIDES/ is not a production NDR path.   ***
+ 
+[   0] Broadening U238 from   293.60 to   600.00
+[   0] Broadening U238 from   293.60 to   900.00
+[   0] Broadening U238 from   293.60 to  1200.00
+[   0] Broadening U235 from   293.60 to   600.00
+[   0] Broadening U235 from   293.60 to   900.00
+[   0] Broadening U235 from   293.60 to  1200.00
+[   0] Broadening U233 from   293.60 to   600.00
+[   0] Broadening U233 from   293.60 to   900.00
+[   0] Broadening U233 from   293.60 to  1200.00
+[   0] Broadening TH232 from   293.60 to   600.00
+[   0] Broadening TH232 from   293.60 to   900.00
+[   0] Broadening TH232 from   293.60 to  1200.00
+[   0] Broadening PU239 from   293.60 to   600.00
+[   0] Broadening PU239 from   293.60 to   900.00
+[   0] Broadening PU239 from   293.60 to  1200.00
+[   0] Broadening PU240 from   293.60 to   600.00
+[   0] Broadening PU240 from   293.60 to   900.00
+[   0] Broadening PU240 from   293.60 to  1200.00
+[   0] Broadening O16 from   293.60 to   600.00
+[   0] Broadening O16 from   293.60 to   900.00
+[   0] Broadening O16 from   293.60 to  1200.00
+[   0] Broadening FE56 from   293.60 to   600.00
+[   0] Broadening FE56 from   293.60 to   900.00
+[   0] Broadening FE56 from   293.60 to  1200.00
+Total initialization time: 1.0096E-01 s.
+Total processing time: 5.4666E+00 s.
+Total broadening time: 2.7024E+00 s.
