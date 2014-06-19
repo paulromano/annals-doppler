@@ -12,7 +12,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmicx}
 \usepackage{algpseudocode}
-\usepackage[exponent-product=\cdot]{siunitx}
+\usepackage{siunitx}
 
 \usepackage{color}
 \definecolor{aneblue}{RGB}{0,128,173}
@@ -450,7 +450,7 @@ integration method.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/runtime.pdf}
+  \includegraphics[width=4in]{runtime.pdf}
   \caption{Observed wall-clock time to Doppler broaden eight selected nuclides
     to three temperatures as a function of Gauss-Hermite quadrature order.}
   \label{fig:runtime}
@@ -466,7 +466,7 @@ Gauss-Hermite quadrature. For almost all energies, the relative error is well
 below 0.5\% percent, but at one energy the relative error exceeds 1\%.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/griderror.pdf}
+  \includegraphics[width=4in]{griderror.pdf}
   \caption{Relative error in the broadened $^{238}$U fission cross section
     produced using a 16 point Gauss-Hermite quadrature as a function of incoming
     neutron energy.}
@@ -493,7 +493,7 @@ used for calculating \autoref{eq:rr-metric}, as calculated by OpenMC
 \citep{ane-romano-2013}.
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=4in]{plots/spectrum.pdf}
+  \includegraphics[width=4in]{spectrum.pdf}
   \caption{Neutron flux spectrum in the BEAVRS benchmark model as calculated by
     OpenMC.}
   \label{fig:spectrum}
@@ -514,7 +514,7 @@ differences for broadening result in worse errors for lower quadrature orders,
 but all cases asymptote to the same value.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/error_U238_n,tot.pdf}
+  \includegraphics[width=4in]{error_U238_n,tot.pdf}
   \caption{Error in the broadened $^{238}$U total cross section produced using a
     Gauss-Hermite quadrature as a function of the quadrature order. The solid
     lines represent the maximum absolute error across all grid points. The
@@ -534,7 +534,7 @@ method results which were used for comparison were calculated with an extended
 range of integration, $-8 \le z < 8$.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/quadrature.pdf}
+  \includegraphics[width=4in]{quadrature.pdf}
   \caption{Largest root of Hermite polynomial as a function of its order.}
   \label{fig:quadrature}
 \end{figure}
@@ -547,14 +547,14 @@ its minimum with a five point quadrature even though the maximum relative error
 continues to decrease with increasing quadrature order.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/error_U235_n,totf.pdf}
+  \includegraphics[width=4in]{error_U235_n,totf.pdf}
   \caption{Error in the broadened $^{235}$U fission cross section produced using a
     Gauss-Hermite quadrature as a function of the quadrature order.}
   \label{fig:error-U235-fission}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/error_FE56_n,tot.pdf}
+  \includegraphics[width=4in]{error_FE56_n,tot.pdf}
   \caption{Error in the broadened $^{56}$Fe total cross section produced using a
     Gauss-Hermite quadrature as a function of the quadrature order.}
   \label{fig:error-FE56-total}
@@ -610,7 +610,7 @@ fractional increase may be related to the fact that the nuclides being added in
 the fuel first were light nuclides.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=4in]{plots/otf.pdf}
+  \includegraphics[width=4in]{otf.pdf}
   \caption{Fractional increase in run time due to on-the-fly Doppler broadening
     in the BEAVRS benchmark model as a function of the number of nuclides in
     fuel regions.}
@@ -672,7 +672,7 @@ as GPUs or co-processors. Either way, the results underscore the need for
 advanced methods for on-the-fly temperature treatment in Monte Carlo codes.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{References}
+%\section*{References}
 
 \bibliographystyle{elsarticle-harv}
 \bibliography{references}
